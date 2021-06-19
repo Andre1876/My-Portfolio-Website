@@ -1,5 +1,6 @@
     <html>
     <head>
+
 <meta charset="utf-8">
 <meta content="IE-edge" http-equiv="X-UA-Compatible">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -52,7 +53,7 @@
 
 	<div class="about-container">
     <!--img-->
-		<img src="image/about-img.png" />
+		<img src="image/about-img.png"/>
 	<!--about-me-text-->
 		<div class="about-text">
 		<p>About Me</p>
@@ -104,7 +105,7 @@
 	<!--footer--------------->
                 <footer>
             <!--heading-->
-    <p>A|L</p>
+    <p>A | L</p>
 	    <!--paragraph-->
 	<p>Please browse below and contact me via the form at the bottom of this page, Twitter, LinkedIn,or my email.</p>
 	    <!--social-->
@@ -126,7 +127,13 @@
 	<a href="#"><i class="fab fa-github"></i></a>
 	</div>
 	<!--JQUery-------------------->
-<script src="JQuery.js" type="text/javascript">
-</script>
+<script src="JQuery.js" type="text/javascript"></script> 
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+});</script>
 </body>
 </html>
