@@ -59,7 +59,8 @@ var flat = arr.flat ? function( array ) {
 	return arr.concat.apply( [], array );
 };
 
-
+// Why do Java developers wear glasses? 
+// Because they don’t C#! 👓
 var push = arr.push;
 
 var indexOf = arr.indexOf;
